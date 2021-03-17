@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Techgamr.Utils.General", "Techgamr.Utils.General\Techgamr.Utils.General.csproj", "{6A5EF720-95A6-408C-8509-CB8799BE41C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Techgamr.Utils.General.Test", "Techgamr.Utils.General.Test\Techgamr.Utils.General.Test.csproj", "{54FDA597-698C-47D2-AC5C-D5C7C000815D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6A5EF720-95A6-408C-8509-CB8799BE41C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A5EF720-95A6-408C-8509-CB8799BE41C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A5EF720-95A6-408C-8509-CB8799BE41C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54FDA597-698C-47D2-AC5C-D5C7C000815D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54FDA597-698C-47D2-AC5C-D5C7C000815D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54FDA597-698C-47D2-AC5C-D5C7C000815D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54FDA597-698C-47D2-AC5C-D5C7C000815D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
