@@ -2,6 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
+        <PackageVersion>0.1.0</PackageVersion>
+        <RepositoryUrl>https://github.com/Techgamr/Techgamr.Utils.General</RepositoryUrl>
     </PropertyGroup>
 
 </Project>
