@@ -14,7 +14,7 @@ jobs:
     runs-on: ${{ matrix.OS }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest] #[ubuntu-latest, windows-latest]
         configuration: [Release, Debug]
     steps:
     - uses: actions/checkout@v2
@@ -47,4 +47,4 @@ jobs:
       - name: Add GitHub package source
         run: dotnet nuget add source https://nuget.pkg.github.com/Techgamr/index.json --name "github" --store-password-in-clear-text --username Techgamr --password ${{ secrets.GITHUB_TOKEN }}
       - name: Push to GitHub Packages
-        run: dotnet nuget push "Techgamr.Utils.General/bin/Release" --api-key ${{ secrets.GITHUB_TOKEN }} --source "github" --no-symbols true
+        run: dotnet nuget push "Techgamr.Utils.General/bin/Release/*" --api-key ${{ secrets.GITHUB_TOKEN }} --source "github" --no-symbols true
