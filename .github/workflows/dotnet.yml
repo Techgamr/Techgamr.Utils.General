@@ -1,4 +1,4 @@
-name: .NET
+name: .NET - Build
 
 on:
   push:
@@ -14,7 +14,7 @@ jobs:
     runs-on: ${{ matrix.OS }}
     strategy:
       matrix:
-        os: [ubuntu-latest] #[ubuntu-latest, windows-latest]
+        os: [ubuntu-latest, windows-latest]
         configuration: [Release, Debug]
     steps:
     - uses: actions/checkout@v2
