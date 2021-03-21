@@ -2,12 +2,13 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
-        <PackageVersion>0.1.4</PackageVersion>
+        <PackageVersion>0.2.0</PackageVersion>
         <RepositoryUrl>https://github.com/Techgamr/Techgamr.Utils.General</RepositoryUrl>
         <PackageProjectUrl>https://github.com/Techgamr/Techgamr.Utils.General/tree/main/Techgamr.Utils.General</PackageProjectUrl>
         <PackageLicenseUrl>https://raw.githubusercontent.com/Techgamr/Techgamr.Utils.General/main/LICENSE</PackageLicenseUrl>
         <Title>Techgamr.Utils.General</Title>
         <Authors>Techgamr</Authors>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
 
 </Project>

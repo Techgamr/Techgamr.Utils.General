@@ -11,6 +11,10 @@ namespace Techgamr.Utils.General
                 ? AssemblyMode.Debug
                 : AssemblyMode.Release;
 
+        public static string? GetAssemblyVersion(Assembly assembly) => assembly.GetName().Version?.ToString();
+        
+        public static FileVersionInfo GetAssemblyFileVersionInfo(Assembly assembly) => FileVersionInfo.GetVersionInfo(assembly.Location);
+
         public static AssemblyMode EngineAssemblyMode { get; set; }
     }
 }
